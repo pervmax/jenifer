@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Happy Birthday Jenifer!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-heart"></i>
+                <span>Jenifer's Birthday</span>
+            </div>
+            
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+                <a href="our-story.html" class="nav-link">
+                    <i class="fas fa-book-open"></i>
+                    <span>Our Story</span>
+                </a>
+                <a href="gallery.html" class="nav-link active">
+                    <i class="fas fa-camera"></i>
+                    <span>Gallery</span>
+                <a href="birthday-message.html" class="nav-link">
+                    <i class="fas fa-gift"></i>
+                    <span>Birthday Message</span>
+                </a>
+            </div>
+
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="index.html" class="mobile-nav-link">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+            </a>
+            <a href="our-story.html" class="mobile-nav-link">
+                <i class="fas fa-book-open"></i>
+                <span>Our Story</span>
+            </a>
+            <a href="gallery.html" class="mobile-nav-link active">
+                <i class="fas fa-camera"></i>
+                <span>Gallery</span>
+            </a>
+            
+            <a href="birthday-message.html" class="mobile-nav-link">
+                <i class="fas fa-gift"></i>
+                <span>Birthday Message</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="page-content">
+        <div class="container">
+            <div class="page-header">
+                <i class="fas fa-camera"></i>
+                <h1>Our Photo Gallery</h1>
+                <p>A collection of our favorite moments captured in time</p>
+            </div>
+
+            <!-- Featured Photos -->
+            <section class="featured-section">
+                <h2>Featured Memories</h2>
+                <div class="featured-grid">
+                    <div class="featured-card">
+                        <div class="photo-placeholder">
+                           <img src="5thpic.jpg" alt="Our Favorite Photo" style="width:100%; height:auto; border-radius: 10px;">
+                        </div>
+                        <div class="featured-info">
+                            <h3>Most Special Moment</h3>
+                            <p>Every time I meet you, talk to you is mero special moment. But if i have to pick one, it'd be the times when you smile cause of me. I still remember that bright smile of yours when i gave you this flowers. Maybe mood off vayara hola tyo bela, the smile was uunimaginably beautiful</p>
+                        </div>
+                    </div>
+
+                    <div class="featured-card">
+                        <div class="photo-placeholder rose" id="adventure-photo-container">
+                            <img src="6thpic.jpg" alt="Our Adventures" style="width:100%; height:auto; border-radius: 10px;">
+                        </div>
+                        <div class="featured-info">
+                            <h3>Our Adventures</h3>
+                            <p>Hami Bhasmeswor dadha janay yo tyo plan banayako thiyoum tara ma ta 2 min hidayra nai thakay haha, ani we shared our jutho for the 1st time. Aja hami feri yeta janxam like we</p>
+                        </div>
+                </div>
+            </section>
+
+            <!-- Photo Grid -->
+<section class="gallery-section">
+    <h2>Memory Collection</h2>
+    <div class="photo-grid" id="photoGrid">
+        <!-- Memory Collection Photos -->
+        <img src="20250414_125223.jpg" alt="Memory" class="gallery-photo">
+        <img src="20250430_162948.jpg" alt="Memory" class="gallery-photo">
+        <img src="20250606_145942.jpg" alt="Memory" class="gallery-photo">
+        <img src="20250628_100216.jpg" alt="Memory" class="gallery-photo">
+        <img src="20250630_190031.jpg" alt="Memory" class="gallery-photo">
+        <img src="20250630_190326.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250601-WA0004.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250601-WA0005.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250630-WA0021.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250630-WA0023.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250714-WA0007.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250718-WA0006.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250718-WA0011.jpg" alt="Memory" class="gallery-photo">
+        <img src="IMG-20250718-WA0016.jpg" alt="Memory" class="gallery-photo">
+        <img src="Snapchat-2047062768.jpg" alt="Memory" class="gallery-photo">
+
+    </div>
+</section>
+
+<!-- Categories -->
+<section class="categories-section">
+    <div class="category-grid">
+        
+        <!-- Date Nights -->
+        <div class="category-card">
+            <div class="category-header">
+                <i class="fas fa-heart"></i>
+                <h3>Date Nights</h3>
+            </div>
+            <div class="category-photos">
+                <div class="category-photo"><img src="Snapchat-127458764(1).jpg" alt="Date Night"></div>
+                <div class="category-photo"><img src="Snapchat-127458764(2).jpg" alt="Date Night"></div>
+                <div class="category-photo"><img src="Snapchat-2086028196.jpg" alt="Date Night"></div>
+                <div class="category-photo"><img src="VID_20250602_092748_487(1).jpg" alt="Date Night"></div>
+            </div>
+        </div>
+
+        <!-- Travel -->
+        <div class="category-card">
+            <div class="category-header">
+                <i class="fas fa-map-marker-alt"></i>
+                <h3>Travel</h3>
+            </div>
+            <div class="category-photos">
+                <div class="category-photo rose"><img src="20250423_094040.jpg" alt="Travel"></div>
+                <div class="category-photo rose"><img src="20250514_193908.jpg" alt="Travel"></div>
+                <div class="category-photo rose"><img src="20250620_180855.jpg" alt="Travel"></div>
+                <div class="category-photo rose"><img src="20250620_183056(1).jpg" alt="Travel"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>Made with 💕 for the most amazing person in the world</p>
+            <p class="footer-small">Happy Birthday Jenifer! 🎂✨</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
